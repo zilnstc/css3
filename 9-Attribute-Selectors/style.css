@@ -1,0 +1,36 @@
+
+/*
+p[title]{
+    border: 1px solid gray;
+}
+p[title="third paragraph"]{
+    border: 1px solid gray;
+    padding: 5px;
+}
+p[title~="forth"]{
+    border: 1px solid gray;
+}
+p[title~="forth"]{
+    border: 1px solid gray;
+    padding: 5px;
+}
+a[href^="https"]{
+    border: 1px solid gray;
+}
+a[href$="com"]{
+    color: aqua;
+}
+a[href="https://www.example.net"][target="_blank"]{
+    color: red;
+}
+input[type="text"]{
+    display: block;
+    width: 150px;
+    background-color: red;
+}
+*/
+input[type="button"]{
+    color:#ffffff ;
+    background-color:#4acf50;
+    padding: 4px 16px;
+}

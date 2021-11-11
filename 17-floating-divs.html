@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #container {
+        width: 80%;
+        margin: auto;
+      }
+      header {
+        height: 100px;
+        background-color: #9bffcd;
+      }
+      nav {
+        height: 30px;
+        background-color: #66ff66;
+      }
+      #sol {
+        width: 20%;
+        height: 500px;
+        background-color: #ffcb99;
+        float: left;
+      }
+      #content {
+        width: 60%;
+        height: 500px;
+        background-color: #a6cffe;
+        float: left;
+      }
+      #sag {
+        width: 20%;
+        height: 500px;
+        background-color: #00cc99;
+        float: left;
+      }
+      footer {
+        height: 70px;
+        background-color: #999967;
+      }
+      .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <header></header>
+      <nav></nav>
+      <main class="clearfix">
+        <div id="sol"></div>
+        <div id="content"></div>
+        <div id="sag"></div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>

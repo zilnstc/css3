@@ -1,107 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="container">
-      <div id="blog-post-container">
-        <div class="blog-post box">
-          <h2>My first blog post</h2>
-          <p class="date">03.11.2021</p>
-          <img src="img/1.jpeg" alt="">
-          <p class="blog-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-            optio facilis voluptates excepturi dicta id dolores fugit placeat
-            dolor. Enim possimus magnam aliquam reprehenderit numquam tempore
-            deleniti. Ducimus, fugit ipsa.
-            <br /><br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            eveniet corrupti voluptas debitis necessitatibus! Reiciendis autem
-            fugiat aliquam, ex quibusdam obcaecati odit placeat ut earum
-            voluptatibus dolore suscipit dicta libero?
-          </p>
-          <ul class="tags">
-            <li class="tag"><a href="">C#</a></li>
-            <li class="tag"><a href="">JavaScript</a></li>
-            <li class="tag"><a href="">KnockoutJs</a></li>
-            <li class="tag"><a href="">ExpressJs</a></li>
-          </ul>
-        </div>
-        <div class="blog-post box">
-          <h2>My second blog post</h2>
-          <p class="date">03.11.2021</p>
-          <img src="img/2.jpeg" alt="">
-          <p class="blog-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-            optio facilis voluptates excepturi dicta id dolores fugit placeat
-            dolor. Enim possimus magnam aliquam reprehenderit numquam tempore
-            deleniti. Ducimus, fugit ipsa.
-            <br /><br />
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            eveniet corrupti voluptas debitis necessitatibus! Reiciendis autem
-            fugiat aliquam, ex quibusdam obcaecati odit placeat ut earum
-            voluptatibus dolore suscipit dicta libero?
-          </p>
-          <ul class="tags">
-            <li class="tag"><a href="">C#</a></li>
-            <li class="tag"><a href="">JavaScript</a></li>
-            <li class="tag"><a href="">KnockoutJs</a></li>
-            <li class="tag"><a href="">ExpressJs</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="other-posts">
-        <div id="inner-other-posts" class="box">
-          <h4 class="header">Popular Posts</h4>
 
-          
-          <ul>
-            <li>
-              <i class="fas fa-angle-double-right"></i>Lorem ipsum dolor sit amet.</li>
-            <li><i class="fas fa-angle-double-right"></i>Quibusdam nobis quidem .</li>
-            <li><i class="fas fa-angle-double-right"></i>Mollitia quisquam vel!</li>
-            <li><i class="fas fa-angle-double-right"></i>Quo sit ducimus nesciunt</li>
-            <li><i class="fas fa-angle-double-right"></i>Ad minima sed amet hic</li>
-          </ul>
-          
-        </div>
-        <div id="share" class="box">
-          <h4 class="header">Share</h4>
-          <a href="#">
-            <i class="fab fa-facebook-square fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-instagram fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-twitter-square fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-youtube-square fa-2x"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-linkedin fa-2x"></i>
-          </a>
-        </div>
-      </div>
-      <div class="temizle"></div>
-      <div id="author-box" >
-        <img src="img/author.jpg" alt="" />
-        <p class="author-text">Javier Gonzalez</p>
-      </div>
-    </div>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<title>Blog</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div id="nav">
+		<div class="container">
+			<ul>
+				<li><a href=""><i class="fas fa-home"
+				></i></a></li>
+				<li><a href="" >Article</a></li>
+				<li><a href="">Contact</a></li>
+				<li style="float: right;"><a href="" class="active">Account</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container mt20">
+		<div id="blog-post-container">
+
+			<div class="blog-post box">
+				<img src="img/1.jpeg">
+				<div class="blog-post-body p20">
+					<h2 class="blog-title"><a href="">My first blog post</a></h2>
+					<p class="date">10.10.2018</p>
+
+					<p class="blog-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea voluptate qui aliquid est, illum quaerat aut! Dolore qui doloremque culpa suscipit harum molestiae commodi fugiat. Natus hic quos consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea voluptate qui aliquid est, illum quaerat aut! Dolore qui doloremque culpa suscipit harum molestiae commodi fugiat. Natus hic quos consequuntur.
+					</p>
+
+					<ul class="tags">
+						<li><a href="" class="tag btn">Asp.net</a></li>
+						<li><a href="" class="tag btn">Angular</a></li>
+						<li><a href="" class="tag btn">React</a></li>
+						<li><a href="" class="tag btn">NodeJs</a></li>
+					</ul>
+
+				</div>
+			</div>
+			
+				<div class="blog-post box">
+				<img src="img/1.jpeg">
+				<div class="blog-post-body p20">
+					<h2 class="blog-title"><a href="">My first blog post</a></h2>
+					<p class="date">10.10.2018</p>
+
+					<p class="blog-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea voluptate qui aliquid est, illum quaerat aut! Dolore qui doloremque culpa suscipit harum molestiae commodi fugiat. Natus hic quos consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea voluptate qui aliquid est, illum quaerat aut! Dolore qui doloremque culpa suscipit harum molestiae commodi fugiat. Natus hic quos consequuntur.
+					</p>
+
+					<ul class="tags">
+						<li><a href="" class="tag btn">Asp.net</a></li>
+						<li><a href="" class="tag btn">Angular</a></li>
+						<li><a href="" class="tag btn">React</a></li>
+						<li><a href="" class="tag btn">NodeJs</a></li>
+					</ul>
+
+				</div>
+			</div>
+			
+				<div class="blog-post box">
+				<img src="img/1.jpeg">
+				<div class="blog-post-body p20">
+					<h2 class="blog-title"><a href="">My first blog post</a></h2>
+					<p class="date">10.10.2018</p>
+
+					<p class="blog-text">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea voluptate qui aliquid est, illum quaerat aut! Dolore qui doloremque culpa suscipit harum molestiae commodi fugiat. Natus hic quos consequuntur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ea voluptate qui aliquid est, illum quaerat aut! Dolore qui doloremque culpa suscipit harum molestiae commodi fugiat. Natus hic quos consequuntur.
+					</p>
+
+					<ul class="tags">
+						<li><a href="" class="tag btn">Asp.net</a></li>
+						<li><a href="" class="tag btn">Angular</a></li>
+						<li><a href="" class="tag btn">React</a></li>
+						<li><a href="" class="tag btn">NodeJs</a></li>
+					</ul>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div id="other-posts">
+			<div id="inner-other-posts" class="box p20">
+
+				<h4 class="header">Popular Posts</h4>
+
+				<ul>
+					<li>
+						<i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+					</li>
+					<li>
+						<i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+					</li>
+					<li>
+						<i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+					</li>
+					<li>
+						<i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+					</li>
+					<li>
+						<i class="fas fa-angle-double-right"></i> Lorem ipsum dolor sit amet.
+					</li>
+				</ul>
+
+			</div>
+
+			<div id="share" class="box p20">
+
+				<h4 class="header">Share</h4>
+
+				<a href="#">
+					<i class="fab fa-facebook fa-2x"></i>
+				</a>
+				<a href="#">
+					<i class="fab fa-twitter-square fa-2x"></i> 
+				</a>
+				<a href="#">
+					<i class="fab fa-youtube-square fa-2x"></i>
+				</a>
+				<a href="#">
+					<i class="fab fa-instagram fa-2x"></i>
+				</a>
+
+
+			</div>
+		</div>
+
+		<div style="clear: both;"></div>
+
+		<div id="author-box">
+			<img src="img/author.jpg" alt="">
+			<p class="author-text">
+				Caleb Fields
+			</p>
+		</div>
+
+	</div>
+
+
+
+</body>
+
 </html>

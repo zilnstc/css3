@@ -28,3 +28,18 @@
     text-align: center;
     padding: 15px;
 }
+@media screen and (max-width:1000px){
+    .item-container{
+        width: 33.3333%; 
+    }
+}
+@media screen and (max-width:750px){
+    .item-container{
+        width: 50%; 
+    }
+}
+@media screen and (max-width:500px){
+    .item-container{
+        width: 100%; 
+    }
+}
